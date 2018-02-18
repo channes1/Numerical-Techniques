@@ -1,4 +1,5 @@
-#Question 2 and 3
+#Random walk on real axis
+#-Mean and error estimate calculation
 
 import numpy as np
 import matplotlib.pyplot as plt
