@@ -9,7 +9,7 @@ Nw= 1000 # Number of walkers
 Xfinal=[]
 Xfinal2=[]
 for i in range(Nw):
-Xi=0
+  Xi=0
 Xf=sum(np.random.uniform(-1,1,Ns))
 Xfinal.append(Xf)
 Xfinal2.append(Xf*Xf)
