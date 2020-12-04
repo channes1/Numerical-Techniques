@@ -1,8 +1,8 @@
 #Question 1
 
 import numpy as np
-import matplotlib.pyplot as pt
-pt.style.use('ggplot')
+import matplotlib.pyplot as plt
+plt.style.use('ggplot')
 Ns=100000 # Number of Steps
 Nw= 1000 # Number of walkers
 #diff = 0 # To calculate the Diffusion
