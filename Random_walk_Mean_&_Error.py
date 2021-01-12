@@ -28,5 +28,3 @@ plt.show()
 Mean = (sum(D))/Nsample
 Error = sqrt((((sum(D2)/Nw)-(sum(D)/Nw)**2)))/sqrt(Nsample)
 print(Mean, Error)
-
-#Ans: (0.1661818634144597, 0.00022881575943505862)
