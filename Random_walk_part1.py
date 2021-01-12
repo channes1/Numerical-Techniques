@@ -14,5 +14,3 @@ Xf=sum(np.random.uniform(-1,1,Ns))
 Xfinal.append(Xf)
 Xfinal2.append(Xf*Xf)
 print(((sum(Xfinal2)/Nw)-(sum(Xfinal)/Nw)**2)/(2*Ns))
-
-#Ans. 0.167819158518
