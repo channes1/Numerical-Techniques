@@ -1,4 +1,3 @@
-%https://www.youtube.com/watch?v=u1Rh09t_Ln8&ab_channel=Scholar-Hub
 clc;
 clear all;
 close all;
