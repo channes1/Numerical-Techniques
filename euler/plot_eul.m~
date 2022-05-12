@@ -1,0 +1,31 @@
+x0=1; 
+y0=2;
+xf=2.8;
+h=0.2; %step size
+
+x(1) = x0; %store value of x0 in first element of array x
+y(1) = y0; %store value of x0 in first element of array y
+
+
+n = (xf-x0)/h; 
+
+%To perform calculations for n number of iterations
+for i = 1:n
+    x(i+1) = x(i) + h;
+    y(i+1) = y(i) + h*eul(x(i),y(i));
+end
+
+z = [x,y];
+
+disp(z);
+
+plot(x,y);
+
+yexact = x.*log(x)+2*x;
+
+plot(x,yexact,5);
+error = yexact-y;
+
+z1=[x y yexact error];
+
+disp(z1);
