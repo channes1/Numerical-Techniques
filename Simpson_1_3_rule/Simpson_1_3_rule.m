@@ -1,5 +1,15 @@
+%Simpson_1_3_rule
+
+% To enter a function from command window
+% f=input('Enter a function: ');
+%
+% In the command window: @(x) cos(x)-log(x)+exp(x)
+%
+
 format short
 f= @(x) cos(x)-log(x)+exp(x);
+
+
 a=input('Enter lower limit for a: ');
 b=input('Enter lower limit for b: ');
 n = input('Enter the no. of subinterval: ');
