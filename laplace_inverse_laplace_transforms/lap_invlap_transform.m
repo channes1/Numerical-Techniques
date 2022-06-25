@@ -6,7 +6,7 @@
 %Output is a function of o
 
 %Ex. 1:
-syms t, s; 
+syms t; syms s; 
 laplace(t^3, t, s)
 
 % o/p = 6/s^4
@@ -18,7 +18,7 @@ laplace(exp(-b*t),t,s)
 %o/p = 1/(b+s)
  
 %Inverse laplace transform
-%ilaplace(yes,t)
+%ilaplace(y,t)
 %where y is a function of s
 %Result is a function of t
 
