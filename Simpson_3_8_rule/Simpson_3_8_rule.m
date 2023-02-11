@@ -7,7 +7,7 @@ n = input('Enter the no. of subinterval: ');
 
 h=(b-a)/n;
 if rem(n,3)==0
-   fprintf('\n This is a valid value of n');
+   fprintf('\n This is not a valid value of n');
 else
    fprintf('\n Enter a valid value of n');
    n=input('\n The value of n should be a multiple of 3');
